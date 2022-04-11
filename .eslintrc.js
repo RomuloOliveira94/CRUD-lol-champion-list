@@ -19,5 +19,8 @@ module.exports = {
     "react/state-in-constructor": "off",
     "import/no-unresolved": 0,
     "import/no-duplicates": 0,
+    "max-len": "off",
+    "no-unused-vars": "off",
+    "consistent-return": "off"
   },
 };
