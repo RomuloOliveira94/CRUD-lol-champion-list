@@ -7,7 +7,8 @@ import "./App.css";
 
 function App() {
   return (
-    <div>
+    <div className="container">
+      <div className="bg-container" />
       <Main />
     </div>
   );

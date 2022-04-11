@@ -32,9 +32,9 @@ class Main extends Component {
     let { newTask } = this.state;
     newTask = newTask.trim();
 
-    if (tasks.indexOf(newTask) !== -1) return alert("Tarefa já incluida");
+    if (tasks.indexOf(newTask) !== -1) return alert("Tarefa já incluída");
 
-    /* aqui estou colocando as tarefas dentro das new tasks, ou seja o que foi digitado vai ficandoo salvo nessa variavel, para nao ser sobreposta. */
+    /* aqui estou colocando as tarefas dentro das new tasks, ou seja o que foi digitado vai ficando salvo nessa variável, para nao ser sobreposta. */
     const newTasks = [...tasks];
 
     if (index === -1) {
@@ -80,7 +80,8 @@ class Main extends Component {
     const { tasks, newTask } = this.state;
     return (
       <div className="main">
-        <h1>Lista de Tarefas</h1>
+        <h1>LEAGUE OF LEGENDS</h1>
+        <h2>Liste seus campeões preferidos!</h2>
 
         <Form
           handleSubmit={this.handleSubmit}
