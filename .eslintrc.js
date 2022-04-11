@@ -21,6 +21,7 @@ module.exports = {
     "import/no-duplicates": 0,
     "max-len": "off",
     "no-unused-vars": "off",
-    "consistent-return": "off"
+    "consistent-return": "off",
+    "react/forbid-prop-types": "off",
   },
 };

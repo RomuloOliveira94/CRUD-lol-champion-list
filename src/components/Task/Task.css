@@ -1,0 +1,53 @@
+.tasks{
+  margin-top: 30px;
+  list-style: none;
+}
+
+.tasks li{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 600ms;
+  font-size: 1.5em;
+  padding: 15px;
+}
+
+.tasks li:hover{
+  background-color: #98DFEA;
+}
+
+.edit{
+  margin-right: 10px;
+  border: none;
+  background-color: white;
+  color: #25283D;
+}
+
+.delete{
+  margin-right: 10px;
+  border: none;
+  background-color: white;
+  color: #8F3985;
+}
+
+.tasks li:hover .delete,
+.tasks li:hover .edit{
+  background-color: #98DFEA;
+}
+
+.delete:active, .edit:active{
+  background-color: rgba(0, 0, 0, 0.555);
+  transform: translate(-2px);
+}
+
+.tasks li .delete,
+.tasks li .edit{
+  cursor: pointer;
+  transition: all 600ms;
+}
+
+.tasks li span{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
